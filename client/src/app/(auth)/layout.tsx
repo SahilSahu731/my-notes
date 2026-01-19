@@ -41,7 +41,7 @@ export default function AuthLayout({
       {/* Left side - Visual Branding */}
       <div className="hidden lg:flex flex-col w-[45%] relative overflow-hidden bg-primary">
         {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-[#1a6bc4]" />
+        <div className="absolute inset-0 bg-linear-to-br from-primary via-primary to-[#1a6bc4]" />
         
         {/* Pattern overlay for texture */}
         <div className="absolute inset-0 opacity-10">
